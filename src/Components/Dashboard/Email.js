@@ -5,7 +5,7 @@ const Email = () => {
   const [item, setItem] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/image")
+    fetch("https://shakil-sarver-app.vercel.app/image")
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, []);

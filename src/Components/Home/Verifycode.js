@@ -11,7 +11,7 @@ const Verifycode = () => {
       Code: data.exampleRequired,
     };
     console.log(Code);
-    fetch("http://localhost:4000/code", {
+    fetch("https://shakil-sarver-app.vercel.app/code", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify(Code),

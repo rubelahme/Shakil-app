@@ -36,7 +36,7 @@ const Verify = () => {
       img3: img3,
       img4: img4,
     };
-    fetch("http://localhost:4000/images", {
+    fetch("https://shakil-sarver-app.vercel.app/images", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(idImg),

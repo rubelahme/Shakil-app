@@ -20,7 +20,7 @@ const Login = () => {
       Email: data.example,
       Password: data.exampleRequired,
     };
-    fetch("http://localhost:4000/users", {
+    fetch("https://shakil-sarver-app.vercel.app/users", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify(ItemId),
